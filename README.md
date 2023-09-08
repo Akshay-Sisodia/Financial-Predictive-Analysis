@@ -91,13 +91,13 @@ The historical data of INFY was obtained from Yahoo Finance. Refer to [data_sour
 
 ## Model Performance
 
-Refer to [evaluation_metrics.txt](results/evaluation_metrics.txt) for a summary of model performance metrics.
+Refer to [evaluation_metrics.md](results/evaluation_metrics.md) for a summary of model performance metrics.
 
 ## Usage Instructions
 
-- Preprocessing: Run `preprocessing.py` to preprocess raw financial data.
-- Model Training: Train the predictive models using `model_training.py`.
-- Model Evaluation: Evaluate model performance with `model_evaluation.py`.
+- Preprocessing: Run `preprocessing.ipynb` to preprocess raw financial data.
+- Model Training: Train the predictive models using `model_training.ipynb`.
+- Model Evaluation: Evaluate model performance with `model_evaluation.ipynb`.
 - Customization: Customize and extend the project as needed. Document your changes.
 
 Refer to [usage_instructions.md](usage/usage_instructions.md) for detailed usage instructions.
