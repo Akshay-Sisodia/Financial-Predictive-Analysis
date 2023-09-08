@@ -91,9 +91,9 @@ The historical data of INFY was obtained from Yahoo Finance. Refer to [data_sour
     - Minimum Samples Leaf: 4
     - Minimum Samples Split: 4
   - Training Process: The data is split into 3 sets
-    - Training Set
-    - 70%-Testing Set
-    - 15%-Validation Set -15%
+    - Training Set 70%
+    - Testing Set 15%
+    - Validation Set -15%
   - Model Performance:
     - Mean Squared Error (MSE): 0.04125697615099299
     - Mean Absolute Error (MAE): 0.13171805812148124
