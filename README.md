@@ -95,10 +95,10 @@ The historical data of INFY was obtained from Yahoo Finance. Refer to [data_sour
     -Testing Set- 15%
     -Validation Set -15%
   - Model Performance:
-   - Mean Squared Error (MSE): 0.04125697615099299
-   - Mean Absolute Error (MAE): 0.13171805812148124
-   - Root Mean Squared Error (RMSE): 0.2031181334863852
-   - R-squared (R2) Score: 0.9985381695437036
+    - Mean Squared Error (MSE): 0.04125697615099299
+    - Mean Absolute Error (MAE): 0.13171805812148124
+    - Root Mean Squared Error (RMSE): 0.2031181334863852
+    - R-squared (R2) Score: 0.9985381695437036
 
 ## Model Performance
 
