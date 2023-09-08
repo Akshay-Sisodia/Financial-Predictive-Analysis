@@ -24,7 +24,7 @@ Financial markets are influenced by a multitude of factors, making them challeng
 
 - `data_sources.md`: Information about the data source and data preprocessing.
 - `model_explanation.md`: Explanation of selected machine learning models.
-- `results/evaluation_metrics.txt`: Summary of model performance metrics.
+- `results/evaluation_metrics.md`: Summary of model performance metrics.
 - `results/model_visualizations/`: Visualizations of model predictions.
 - `usage/usage_instructions.md`: Instructions on using the project code.
 
@@ -85,9 +85,20 @@ The historical data of INFY was obtained from Yahoo Finance. Refer to [data_sour
 
 - Model: Random Forest Regressor
   - Description: The Random Forest Regressor is an ensemble learning technique known for its ability to handle complex relationships in financial data.
-  - Parameters: [List of hyperparameters and their values]
-  - Training Process: [Explanation of the training process]
-  - Model Performance: [Performance metrics on the validation set]
+  - Parameters:
+    - Number of Estimators: 200
+    - Maximum Depth: 10
+    - Minimum Samples Leaf: 4
+    - Minimum Samples Split: 4
+  - Training Process: The data is split into 3 sets
+    -Training Set- 70%
+    -Testing Set- 15%
+    -Validation Set -15%
+  - Model Performance:
+   - Mean Squared Error (MSE): 0.04125697615099299
+   - Mean Absolute Error (MAE): 0.13171805812148124
+   - Root Mean Squared Error (RMSE): 0.2031181334863852
+   - R-squared (R2) Score: 0.9985381695437036
 
 ## Model Performance
 
